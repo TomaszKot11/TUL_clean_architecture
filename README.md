@@ -20,14 +20,27 @@ na zdefiniowane reguły.
 <strong>mvn spotless:apply</strong>
 <img src="zrzuty/2.JPG"/>
 
-Różnice pokazane przy pomocy git --diff (autor preferuje operacje w terminalu gdyż codziennie pracuje z Mac OS/Linux).
+Różnice pokazane przy pomocy Diff:
 
 <img src="zrzuty/3.JPG"/>
 <img src="zrzuty/4.JPG"/>
 <img src="zrzuty/5.JPG"/>
 
 Jak widać różnice polegały głównie na znakach spacji oraz przeniesieniu znaków '{' do tych samych linijek, w których znajdują się np. instrukcje for.
+Wyrównano również np. znaki komentarzy blokowych '/*'.
+<h1>Zad 2</h1>
 
 
+<h1> Zad 3 </h1>
 
+Spotless używa UTF-8 domyślnie. Po zmianie na Cp1252. Zatem teraz będziemy używać Windowsowych znaków końca linii. Oczwyiście plik Main.java został
+taki sam jak przed każdym z punktów tzn. nie jest on wynikiem wykonania np. komendy mvn spotless:apply.
+
+Po samej zmianie:
+<img src="Zrzuty/6.JPG"/>
+
+Jak widać plik ma kodowanie UNIXOWE końca linii. Narzędzie spotless się "zgubiło" i nie mogło odczytać końcówek linii poprawnie stąd odczytało część pliku jako jedną linię.
+Zmieniamy znak końca linii w konfiguracji i otrzymujemy poprawny wynik: 
+
+<img src="Zrzuty/7.JPG"/>
 
