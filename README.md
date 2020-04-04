@@ -30,6 +30,16 @@ Jak widać różnice polegały głównie na znakach spacji oraz przeniesieniu zn
 Wyrównano również np. znaki komentarzy blokowych '/*'.
 <h1>Zad 2</h1>
 
+Wyniki wywołania <strong>Reformat Code</strong> dla narzędzia <strong>Google Java Format</strong>
+
+<img src="zrzuty/8.JPG"/>
+<img src="zrzuty/9.JPG"/>
+<img src="zrzuty/10.JPG"/>
+
+Jak widać narzędzie Google Java Format, podobnie jak spotless, dołączyło wszystkie nawiasy klamrowe do linii, w których wywołana
+została odpowiednia instrukcja. Ponadto poprawia ono wcięcia oraz dodaje spacje - np. w instrukcji for pomiędzy poszczególnymi średnikami.
+Warto wspomnieć zgodnie z wątkiem na <a href="https://stackoverflow.com/questions/50027892/override-google-java-format-with-spotless-maven-plugin">StackOverflow</a>
+że Java Google Formatter nie udostępnia takiej możliwości konfiguracji jak narzędzie spotless.
 
 <h1> Zad 3 </h1>
 
