@@ -19,7 +19,7 @@ się nie wyswietla to oznacza, że jest równy zero. Znak minusa mówi o "starym
 oznacza to różnicę między plikiem analizowanym i tym, który powstanie po uruchomieniu <strong>mvn spotless:apply</strong> a więc "poprawnym" ze względu
 na zdefiniowane reguły.
 
-<strong>mvn spotless:apply</strong>
+<strong>mvn spotless:apply</strong> <br/>
 <img src="zrzuty/2.JPG"/>
 
 Różnice pokazane przy pomocy Diff:
@@ -57,7 +57,7 @@ Zmieniamy znak końca linii w konfiguracji i otrzymujemy poprawny wynik:
 <img src="zrzuty/7.JPG"/>
 
 <h1>Zad 4</h1>
-<strong>Uwaga: Z racji, że "projekt" posiada jedynie jedną klasę jako opis opisano jedynie plik Main.java</strong>
+<strong>Uwaga: Z racji, że "projekt" posiada jedynie jedną klasę jako opis opisano jedynie plik Main.java, w punkcie tym sztucznie dodano również properties do klasy Main.java</strong>
 
 Zrzut fragmentu wygenerowanej dokumentacji JavaDocs został przedstawiony poniżej: 
 
