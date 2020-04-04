@@ -1,6 +1,8 @@
+<h1>Tomasz Kot 233 978</h1>
+
 <strong>Uwaga: Napisany program nie zachowuje dobrych praktyk programistycznych w jezyku Java. Jest to wykonane
 specjalnie by narzędzia używane w ćwiczeniu mogły się wykazać. Autor zaznacza, że większość kodu została zainspirowana "złym" (z punktu widzenia stylu i konwencji) kodem
-z Internetu.</strong>
+z Internetu. Ponadto sens samego projektu jest wątpliwy - kod ma służyć tylko zapoznaniu z tematyką Fromatowania kodu w kontekście Tworzenia i utrzymywania czystego kodu.</strong>
 
 <h1>Zad 1</h1>
 <p>Wynik wykonania komendy <strong>spotless:check</strong> został przedstawiony na zrzucie ekranu</p>
@@ -55,12 +57,24 @@ Zmieniamy znak końca linii w konfiguracji i otrzymujemy poprawny wynik:
 <img src="zrzuty/7.JPG"/>
 
 <h1>Zad 4</h1>
+<strong>Uwaga: Z racji, że "projekt" posiada jedynie jedną klasę jako opis opisano jedynie plik Main.java</strong>
 
+Zrzut fragmentu wygenerowanej dokumentacji JavaDocs został przedstawiony poniżej: 
+
+<img src="zrzuty/11.JPG" />
 
 <h1>Pytania weryfikacyjne</h1>
 
-<strong>Pytanie 1</strong>
-<strong>Pytanie 2</strong>
-<strong>Pytanie 3</strong>
-<strong>Pytanie 4</strong>
-Ważne jest by wykonywać automatyczne formatowanie ponieważ pozwala ono w niezależny od człowieka sposób formatować kod.
+<strong>Pytanie 1</strong><br/>
+Na sformatowanie automatyczne kodu pozwala plugin <strong>Google Java Formatter</strong>.<br/>
+<strong>Pytanie 2</strong><br/>
+Dla języka Java - odpowiednio dla Google Java Format jest to <strong>Google Java Style</strong>. Wtyczka spotless również "supportuje" ten styl jednakże (dla języka Java)
+dodaje również standard który można określić jako <strong>Eclipse Java Code Formatter</strong> <br/>
+<strong>Pytanie 3</strong><br/>
+Spośród poznanych wtyczek w ćwiczeniu największą możliwość dostosowania konfiguracji posiada wtyczka Spotless. Dzieje się to poprzez plik XML. <br/>
+<strong>Pytanie 4</strong><br/>
+Ważne jest by wykonywać automatyczne formatowanie ponieważ jakość (właściwie: czystość) kodu jest czymś o czym łatwo zapomnieć w czasie
+rozwiązywania problemu programistycznego. Dzięki automatyzacji tego procesu chociaż w ograniczym do dokładności działania danego narzędzia zakresie zadbamy o taką czystość.
+Ponadto pluginy często mają zaimplementowane pewne mechanizmy uznane jako "standard" w danej społeczności (style guidelines) - np. Rubocop w języku Ruby. Dzięki temu po pierwsze - mamy możliwość 
+ich poznania, a po drugie stosujemy uczynimy nas kod łatwiejszym w cztaniu i utrzymywaniu (a więc i tańszy w tym zakresie :) ) dla innych poprzez stosowanie umownych reguł. Jeśli w danej organizacji obecny jest również pewien <i>standard kodowania</i>
+możemy poprzez współdzielony plik konfiguracyjny np. dla Rubocop rubocop.yml szerzyć powszechną automatyzacje dbania o formatowanie w orgazniacji, w której pracujemy. Formatowanie kodu może również automatyzować generacje dokumentacji -np. Javadocs lub YARD dla Ruby.
