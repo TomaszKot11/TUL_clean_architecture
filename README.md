@@ -59,3 +59,8 @@ Zmieniamy znak końca linii w konfiguracji i otrzymujemy poprawny wynik:
 
 <h1>Pytania weryfikacyjne</h1>
 
+<strong>Pytanie 1</strong>
+<strong>Pytanie 2</strong>
+<strong>Pytanie 3</strong>
+<strong>Pytanie 4</strong>
+Ważne jest by wykonywać automatyczne formatowanie ponieważ pozwala ono w niezależny od człowieka sposób formatować kod.
