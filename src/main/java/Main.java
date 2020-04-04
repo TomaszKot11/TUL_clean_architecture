@@ -1,5 +1,6 @@
 /**
  * Main class which runs the whole application
+ *
  * @author Tomasz Kot
  * @version 1.4
  * @since 1.0
@@ -8,10 +9,11 @@ public class Main {
     /**
      * Sample array for sorting
      */
-    private int[] arrayToSort =  {64, 34, 25, 12, 22, 11, 90};
+    private int[] arrayToSort = {64, 34, 25, 12, 22, 11, 90};
 
     /**
      * sort array using selection sort algorithm
+     *
      * @param arr array of integers to sort
      * @return void
      */
@@ -37,8 +39,9 @@ public class Main {
 
     /**
      * helper methods for {@link Main#quickSort(int[], int, int) quickSort} method
-     * @param arr array of integers to sort
-     * @param low the index of the first element of the array
+     *
+     * @param arr  array of integers to sort
+     * @param low  the index of the first element of the array
      * @param high the index of last element of the array
      * @return int the index of pivot
      */
@@ -67,8 +70,9 @@ public class Main {
 
     /**
      * sort array using quick sort algorithm
-     * @param arr array of integers to sort
-     * @param low the index of the first element of the array
+     *
+     * @param arr  array of integers to sort
+     * @param low  the index of the first element of the array
      * @param high the index of last element of the array
      * @return void
      */
@@ -87,6 +91,7 @@ public class Main {
 
     /**
      * sort array using bubble sort algorithm
+     *
      * @param arr array of integers to sort
      * @return void
      */
@@ -104,6 +109,7 @@ public class Main {
 
     /**
      * print array
+     *
      * @param arr array of integers to print
      * @return void
      */
@@ -116,6 +122,7 @@ public class Main {
 
     /**
      * runs the whole application
+     *
      * @param args command line arguments
      * @return void
      */

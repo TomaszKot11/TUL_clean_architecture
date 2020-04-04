@@ -59,9 +59,16 @@ Zmieniamy znak końca linii w konfiguracji i otrzymujemy poprawny wynik:
 <h1>Zad 4</h1>
 <strong>Uwaga: Z racji, że "projekt" posiada jedynie jedną klasę jako opis opisano jedynie plik Main.java, w punkcie tym sztucznie dodano również properties do klasy Main.java</strong>
 
-Zrzut fragmentu wygenerowanej dokumentacji JavaDocs został przedstawiony poniżej: 
-
+Zrzut ekranu przedstawiający część dokumentacji napisanej przy pomocy JavaDocs:
 <img src="zrzuty/11.JPG" />
+
+Wygenerowana dokumentacja przy pomocy JavaDocs:
+<img src="zrzuty/13.JPG" />
+
+Wynik formatowania JavaDocs:
+<img src="zrzuty/12.JPG" />
+
+Głównie zostały dodane puste linie pomiędzy głównym opisem danego elementu, a opisem pozostałych parametrów.
 
 <h1>Pytania weryfikacyjne</h1>
 
