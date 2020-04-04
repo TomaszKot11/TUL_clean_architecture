@@ -4,7 +4,7 @@ z Internetu.</strong>
 
 <h1>Zad 1</h1>
 <p>Wynik wykonania komendy <strong>spotless:check</strong> został przedstawiony na zrzucie ekranu</p>
-<img src="/zrzuty/1.jpg"/>
+<img src="/zrzuty/1.JPG"/>
 
 Jak widać w projekcie algorytmów sortowania (specjalnie napisanych w złym "stylu") mamy pełno 
 ostrzeżeń odnośnie stylu w pliku Main.java. Przy pomocy uruchomienia komenty <strong>mvn spotless:apply </strong>
