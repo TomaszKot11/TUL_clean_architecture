@@ -15,7 +15,6 @@ public class Main {
      * sort array using selection sort algorithm
      *
      * @param arr array of integers to sort
-     * @return void
      */
     public static void selectionSort(int arr[]) {
         int n = arr.length;
@@ -74,7 +73,6 @@ public class Main {
      * @param arr  array of integers to sort
      * @param low  the index of the first element of the array
      * @param high the index of last element of the array
-     * @return void
      */
     public static void quickSort(int arr[], int low, int high) {
         if (low < high) {
@@ -93,7 +91,6 @@ public class Main {
      * sort array using bubble sort algorithm
      *
      * @param arr array of integers to sort
-     * @return void
      */
     public static void bubbleSort(int arr[]) {
         int n = arr.length;
@@ -111,7 +108,6 @@ public class Main {
      * print array
      *
      * @param arr array of integers to print
-     * @return void
      */
     public static void printArray(int arr[]) {
         int n = arr.length;
@@ -124,7 +120,6 @@ public class Main {
      * runs the whole application
      *
      * @param args command line arguments
-     * @return void
      */
     public static void main(String[] args) {
         int arr1[] = {64, 34, 25, 12, 22, 11, 90};
