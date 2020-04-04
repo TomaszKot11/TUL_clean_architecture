@@ -44,3 +44,8 @@ Zmieniamy znak końca linii w konfiguracji i otrzymujemy poprawny wynik:
 
 <img src="zrzuty/7.JPG"/>
 
+<h1>Zad 4</h1>
+
+
+<h1>Pytania weryfikacyjne</h1>
+
