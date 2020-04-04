@@ -26,3 +26,8 @@ Różnice pokazane przy pomocy git --diff (autor preferuje operacje w terminalu 
 <img src="zrzuty/4.JPG"/>
 <img src="zrzuty/5.JPG"/>
 
+Jak widać różnice polegały głównie na znakach spacji oraz przeniesieniu znaków '{' do tych samych linijek, w których znajdują się np. instrukcje for.
+
+
+
+
