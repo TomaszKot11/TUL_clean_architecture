@@ -17,7 +17,12 @@ się nie wyswietla to oznacza, że jest równy zero. Znak minusa mówi o "starym
 oznacza to różnicę między plikiem analizowanym i tym, który powstanie po uruchomieniu <strong>mvn spotless:apply</strong> a więc "poprawnym" ze względu
 na zdefiniowane reguły.
 
+<strong>mvn spotless:apply</strong>
+<img src="zrzuty/2.JPG"/>
+
 Różnice pokazane przy pomocy git --diff (autor preferuje operacje w terminalu gdyż codziennie pracuje z Mac OS/Linux).
 
-
+<img src="zrzuty/3.JPG"/>
+<img src="zrzuty/4.JPG"/>
+<img src="zrzuty/5.JPG"/>
 
