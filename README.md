@@ -37,10 +37,10 @@ Spotless używa UTF-8 domyślnie. Po zmianie na Cp1252. Zatem teraz będziemy u�
 taki sam jak przed każdym z punktów tzn. nie jest on wynikiem wykonania np. komendy mvn spotless:apply.
 
 Po samej zmianie:
-<img src="Zrzuty/6.JPG"/>
+<img src="zrzuty/6.JPG"/>
 
 Jak widać plik ma kodowanie UNIXOWE końca linii. Narzędzie spotless się "zgubiło" i nie mogło odczytać końcówek linii poprawnie stąd odczytało część pliku jako jedną linię.
 Zmieniamy znak końca linii w konfiguracji i otrzymujemy poprawny wynik: 
 
-<img src="Zrzuty/7.JPG"/>
+<img src="zrzuty/7.JPG"/>
 
